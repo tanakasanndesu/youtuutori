@@ -1,0 +1,73 @@
+<body class="flex flex-col min-h-screen">
+    <%= render "shared/header" %>
+  <div class="flex-grow">    
+      <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+
+    
+<div class="w-6xl flex-auto">
+  <div class="flex flex-col p-4 md:flex-row md:p-8 max-w-6xl mx-auto">
+    <div class="card rounded-box flex-grow place-items-center bg-white shadow-xl md:w-1/2">
+      <div class="w-full p-4">
+        <div class="h-full flex-row items-center justify-center text-left md:justify-start md:text-left">
+          <div class="flex flex-row items-center pl-2 text-left md:text-left">
+            <div class="avatar">
+              <div class="h-24 w-24 rounded-full">
+                <%= image_tag "youtuutori1.png" %>
+              </div>
+            </div>
+            <p class="title-font text-3xl font-semibold text-neutral-900">OOさん</p>
+          </div>
+          <div class="flex-grow py-4 pl-4">
+            <div class="text-right">
+            リマインダー＆プロフィール編集
+            </div>
+          </div>
+        <div class="w-full mt-6">
+            <p class="title-font text-base font-semibold text-neutral-900">現在のポイント   0P</p>
+        </div>
+        <div class="w-full mt-6">
+            <p class="title-font text-base font-semibold text-neutral-900">ランキング</p>
+        </div>
+        <div class="w-full mt-6">
+            <p class="title-font text-base font-semibold text-neutral-900">ひとこと</p>
+            <div class="bg-gray-200 p-14 rounded-lg">
+            </div>
+        </div>
+        <div class="w-full mt-6">
+            <p class="title-font text-base font-semibold text-neutral-900">腰痛トリの状態</p>
+        </div>
+        <div class="avatar mt-6 mx-8">
+              <div class="h-24 w-24 rounded-full ">
+                <%= image_tag "youtuutori1.png" %>
+              </div>
+              <div class="chat chat-start mx-8">
+                <div class="chat-bubble">こんにちは！ 今日も頑張ろう！！</div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider md:divider-horizontal"></div>
+    <div class="flex-grow md:w-1/2">
+    <div role="tablist" class="tabs tabs-bordered">
+        <input type="radio" name="my_tabs_1" role="tab" class="tab custom-tab text-xl" aria-label="全運動メニュー" checked/>
+        <div role="tabpanel" class="tab-content mt-4">
+        </div>
+
+        <input type="radio" name="my_tabs_1" role="tab" class="tab custom-tab text-xl" aria-label="OOさんに合う運動メニュー"/>
+        <div role="tabpanel" class="tab-content mt-4">
+        </div>
+        <div role="tabpanel" class="tab-content mt-4">
+        </div>
+    </div>
+</div>
+  </div>
+</div>
+
+
+</div>
+    </div>
+  </div>
+    <%= render "shared/footer" %>
+</body>
