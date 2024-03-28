@@ -134,6 +134,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.3-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.16.3-x86_64-linux)
+      racc (~> 1.4)
     pg (1.5.6)
     psych (5.1.2)
       stringio
@@ -219,13 +221,14 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
   capybara
   cssbundling-rails
   debug
-  dockerfile-rails (~> 1.6)
+  dockerfile-rails (>= 1.6)
   jbuilder
   jsbundling-rails
   pg (~> 1.1)
